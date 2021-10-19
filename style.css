@@ -1,0 +1,37 @@
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	border: 5px solid;
+	margin-top: 30px;
+}
+
+body {
+	margin: 50px;
+	background-image: url('background.jpg');
+}
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+
+.row .col-md-6 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-size: 50px;
+}
+
+.row .col-lg-6 {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	font-size: 50px;
+}
